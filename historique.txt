@@ -1,0 +1,8 @@
+/.git/config change URL
+git clone en ssh
+git push 
+git pull
+git checkout -b feature/add_historique
+git branch
+git push --set-upstream origin feature/add_historique
+git restore --staged <file>
