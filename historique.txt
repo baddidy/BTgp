@@ -1,8 +1,10 @@
 /.git/config change URL
-git clone en ssh
-git push 
-git pull
-git checkout -b feature/add_historique
-git branch
-git push --set-upstream origin feature/add_historique
-git restore --staged <file>
+git clone <url> en ssh pour cloner un projet
+git push pour ajouter du code
+git pull pour en recupérer
+git checkout -b feature/add_historique pour créer un nouvelle branche
+git branch pour lister les branches locales
+git add <files> ajouter les fichier à la liste des fichier à pusher
+git restore --staged <file> pour retirer un fichier de cette liste
+git commit pour commiter les fichier (l'option -m c'est le diable !!!!)
+git push --set-upstream origin feature/add_historique premier push après l'ouverture d'une branche
