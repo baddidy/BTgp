@@ -12,3 +12,4 @@ git diff pour voir les modifications faites dans un fichier
 git log pour voir les differents commit fait sur la branche
 git status
 git show <hash> pour voir les détails du commit
+git commit --amend modifier le message d'un commit et ajoute modifications après avoir add
