@@ -12,4 +12,5 @@ $TTL	604800
 @	IN	NS	localhost.
 @	IN	A	127.0.0.1
 @	IN	AAAA	::1
-datamode IM     NS      172.31.17.3
+datamode IN     NS      172.31.17.4
+datanode	IN	A	172.31.17.3
